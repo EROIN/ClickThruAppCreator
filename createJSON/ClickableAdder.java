@@ -44,7 +44,7 @@ class ClickableAdder extends JComponent implements MouseListener,MouseMotionList
 
   public void mousePressed(MouseEvent e)
   {
-    // System.out.println(e.getX());
+    // System.out.println(e.getX());// for mouse pressed checking
     start=false;
     rectLinkToImage=null;
     p1=p2=new Point(e.getX(),e.getY()-25);

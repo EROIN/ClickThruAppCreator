@@ -70,7 +70,7 @@ frame.addMouseMotionListener(adder);
 frame.setVisible(true);
 }
 
-private static void writeImageAssets()
+private static void writeImageAssets()  //for writing image assets to Xcode
 {
   File imagesFolder=new File("images/");
   File [] listOfImageFiles=imagesFolder.listFiles();
